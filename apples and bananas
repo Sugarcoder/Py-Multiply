@@ -1,0 +1,36 @@
+def apple_sum (a,b):
+	print "Multiplying %d * %d" % (a,b)
+	return a * b
+
+
+def banana_sum (a,b,c,d):
+	print "Multiplying (%d * %d) + (%d * %d)" % (a,b,c,d)
+	return (a*b) + (c*d)
+
+
+def orange_sum (a,b,c,d,e,f):
+	print "Multiplying (%d * %d) + (%d * %d) + (%d * %d)" % (a,b,c,d,e,f)
+	return (a*b) + (c*d) + (e*f)
+
+
+def pineapple_sum (a,b,c,d,e,f,g,h):
+	print "Multiplying (%d * %d) + (%d * %d) + (%d + %d) + (%d + %d)" % (a,b,c,d,e,f,g,h)
+	return (a*b) + (c*d) + (e*f) + (g*h)
+
+
+
+
+apples = apple_sum (2,0)
+print apples
+
+
+bananas = banana_sum (2,0,3,1)
+print bananas
+
+
+oranges = orange_sum (2,0,3,1,5,2)
+print oranges
+
+
+pineapples = pineapple_sum (2,0,3,1,5,2,2,3)
+print pineapples
